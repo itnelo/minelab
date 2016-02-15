@@ -2907,7 +2907,7 @@ a.close-icon:before,
 .fa-plane:before {
   content: "\f072"; }
 
-.fa-calendar:before {
+.fa-calendar:before, #top-menu a.activities:before, #top-menu .activities.icon-add.checklist-new-only:before {
   content: "\f073"; }
 
 .fa-random:before {
