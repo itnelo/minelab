@@ -186,6 +186,9 @@ select
 		&.projects
 			@extend .fa-cubes
 
+		&.activities
+			@extend .fa-calendar
+
 		&.contacts
 			@extend .fa-book
 
@@ -385,6 +388,22 @@ select
 				color: $text
 				background: white
 				width: 15em
+
+		#project_quick_jump_box
+			height: 2.45em
+			border-bottom-color: #aaa
+			border-radius: 2px
+			margin-left: 1em
+			background: rgba(71, 77, 87, 0.3) !important
+			border-color: rgba(71, 77, 87, 0.5)
+			color: rgba(255, 255, 255, 0.8)
+			font-family: "Helvetica Neue", Helvetica, Arial, sans-serif
+			font-size: 0.9em
+			background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #eee), color-stop(0.9, #fff))
+			background-image: -webkit-linear-gradient(center bottom, #eee 0%, #fff 90%)
+			background-image: -moz-linear-gradient(center bottom, #eee 0%, #fff 90%)
+			filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#eeeeee', GradientType=0)
+			background-image: linear-gradient(to bottom, #eee 0%, #fff 90%)
 
 	a, a:hover, a:active, a:focus
 		color: white
