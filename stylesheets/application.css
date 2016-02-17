@@ -4983,7 +4983,6 @@ a.sort.desc, .sort.desc.icon-add.checklist-new-only {
   background-image: url(../images/sort_desc.png); }
 
 table.attributes th {
-  vertical-align: top;
   text-align: left; }
 
 table.attributes td {
