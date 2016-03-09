@@ -3317,7 +3317,7 @@ div.members h3:before {
 .fa-angle-down:before {
   content: "\f107"; }
 
-.fa-desktop:before {
+.fa-desktop:before, #top-menu a.issues:before, #top-menu .issues.icon-add.checklist-new-only:before {
   content: "\f108"; }
 
 .fa-laptop:before {
